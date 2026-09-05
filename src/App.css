@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #222;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 17px;
+}
+
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page h1 {
+  margin-bottom: 25px;
+}
+
+.courses {
+  display: flex;
+  gap: 25px;
+}
+
+.course-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+}
